@@ -44,3 +44,18 @@ python punycode_generator.py
 ```
 
 Then, enter a domain (e.g., `google.com`), and the script will output look-alike domains along with
+
+## Example Output
+```sh
+Enter a domain (e.g., google.com): google.com
+
+Look-alike domains and their Punycode equivalents:
+googlė.com => xn--googl-b0a.com
+göogle.com => xn--ggle-55da.com
+...
+```
+
+## Notes
+- The script relies on idna for Punycode encoding.
+- Generated domains may not always be registered or in use but highlight potential phishing risks.
+- Use this tool responsibly to enhance security awareness and research.
